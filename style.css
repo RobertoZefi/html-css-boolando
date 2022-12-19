@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenitore{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: orange;
+    padding: 15px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.genere{
+    display: flex;
+    gap: 8px;
+    font-weight: bold;
+    flex-basis: 20%;
+}
+
+.card-img-header{
+    flex-basis: 60%;
+}
+
+.img-header{
+    
+}
+
+.icon{
+    flex-basis: 20%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.img-card{
+    position: relative;
+    display: inline-block;
+}
+
+.like{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    width: 40px;
+    line-height: 40px;
+}
+
+.img{
+    max-width: 400px;
+}
+
+
+.sales{
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    background-color: red;
+    padding: 7px;
+    color: white;
+    line-height: 13px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.eco{
+    position: absolute;
+    bottom: 60px;
+    left:40px;
+    background-color: forestgreen;
+    color: white;
+    padding: 7px;
+    line-height: 13px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.eco.singolo{
+    left: 0;
+    margin-left: 0;
+}
+
+.offerta{
+    color: red;
+}
+
+.prezzo{
+
+}
